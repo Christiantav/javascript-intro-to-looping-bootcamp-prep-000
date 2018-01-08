@@ -24,4 +24,3 @@ function doWhile(array) {
   while (array.length > 0){
     return array
   }
-}
