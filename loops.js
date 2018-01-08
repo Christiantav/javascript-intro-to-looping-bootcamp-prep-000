@@ -21,6 +21,7 @@ function doWhile(array) {
   do {
     array.pop()
   }
-  while (array.length > 0)
+  while (array.length > 0){
     return array
   }
+}
