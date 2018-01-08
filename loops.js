@@ -18,5 +18,10 @@ return "done"
 }
 
 function doWhile(array) {
-  do ()
+  do {
+    array.pop()
+  }
+  while (array.length > 0){
+    return array
+  }
 }
